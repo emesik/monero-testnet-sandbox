@@ -1,0 +1,6 @@
+*/lmdb
+wallet?/wallet*
+*.bin
+*.log
+*.swp
+*~
