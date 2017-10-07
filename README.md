@@ -17,7 +17,3 @@ Each wallet and node is started by `run.sh` script in their directory.
 You should receive first unlocked coins once 61st block has been mined.
 
 Too many blocks? Want to try again? You may remove all wallets, blockchain copies and logs by running `clean.sh`. Make sure all wallets and nodes have been shut down before. This will restart your testnet from scratch.
-
-# Attention
-
-Each node is set up to run 4 mining threads. This might be an excessive number for many systems, so please adjust to your hardware by editing `run.sh` for each node.
